@@ -1,10 +1,8 @@
 #!/usr/bin/python3
+"""Module that defines an empty Square class.
+This is just a placeholder for future implementation.
+"""
+
 class Square:
-    """An empty class that defines a square."""
+    """Empty class that defines a square."""
     pass
-
-
-if __name__ == "__main__":
-    my_square = Square()
-    print(type(my_square))
-    print(my_square.__dict__)
