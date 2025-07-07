@@ -3,7 +3,8 @@
 
 
 class Rectangle:
-    """Defines a rectangle with width and height, and supports utility methods."""
+    """Defines a rectangle with width and height,
+      and supports utility methods."""
 
     number_of_instances = 0      # Public class attribute
     print_symbol = "#"           # Used for string representation
