@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""This module defines a Rectangle class with width, height, area, perimeter,
+"""This module defines a Rectangle class
+with width, height, area, perimeter,
 and string representation using '#' characters.
 """
 
@@ -8,7 +9,7 @@ class Rectangle:
     """A class that defines a rectangle by width and height."""
 
     def __init__(self, width=0, height=0):
-        """Initialize a new Rectangle instance with optional width and height."""
+        """Rectangle instance with optional width and height."""
         self.width = width
         self.height = height
 
@@ -45,15 +46,16 @@ class Rectangle:
         return self.__width * self.__height
 
     def perimeter(self):
-        """Return the perimeter of the rectangle, or 0 if width or height is 0."""
+        """Return the perimeter of the rectangle,
+        or 0 if width or height is 0."""
         if self.__width == 0 or self.__height == 0:
             return 0
         return 2 * (self.__width + self.__height)
 
     def __str__(self):
-        """Return a string representation of the rectangle using '#' characters."""
+        """Return a string representation
+        of the rectangle using '#' characters."""
         if self.__width == 0 or self.__height == 0:
             return ""
         rect_lines = ["#" * self.__width for _ in range(self.__height)]
         return "\n".join(rect_lines)
-
