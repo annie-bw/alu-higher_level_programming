@@ -6,8 +6,11 @@ class Square:
     """Represents a square."""
 
     def __init__(self, size=0):
-        """Initialize the square with a size, using the setter for validation."""
-        self.size = size  # Uses the setter method for validation
+        """Initialize the square with a size.
+
+        Uses the setter for validation.
+        """
+        self.size = size
 
     @property
     def size(self):
@@ -17,6 +20,7 @@ class Square:
     @size.setter
     def size(self, value):
         """Set the size with validation.
+
         Args:
             value: The size to set.
         Raises:
