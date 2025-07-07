@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """This module defines a Square class with size validation and printing."""
 
+
 class Square:
     """A class that defines a square by its size and provides methods."""
 
@@ -33,4 +34,4 @@ class Square:
         else:
             for _ in range(self.__size):
                 print("#" * self.__size)
-                
+
