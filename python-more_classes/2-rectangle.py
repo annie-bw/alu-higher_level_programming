@@ -1,12 +1,13 @@
 #!/usr/bin/python3
-"""This module defines a Rectangle class with width, height, area, and perimeter."""
+"""This module defines a Rectangle class """
 
 
 class Rectangle:
     """A class that defines a rectangle by width and height."""
 
     def __init__(self, width=0, height=0):
-        """Initialize a new Rectangle instance with optional width and height."""
+        """Initialize a new Rectangle instance
+        with optional width and height."""
         self.width = width
         self.height = height
 
