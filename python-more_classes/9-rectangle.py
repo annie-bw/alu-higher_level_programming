@@ -1,13 +1,14 @@
 #!/usr/bin/python3
-"""Defines a rectangle with width and height, and supports utility methods."""
+"""Defines a rectangle with width and height,
+and supports utility methods."""
 
 
 class Rectangle:
     """Defines a rectangle with width and height,
       and supports utility methods."""
 
-    number_of_instances = 0      # Public class attribute
-    print_symbol = "#"           # Used for string representation
+    number_of_instances = 0
+    print_symbol = "#"
 
     def __init__(self, width=0, height=0):
         """Initialize a new Rectangle instance."""
@@ -82,5 +83,6 @@ class Rectangle:
 
     @classmethod
     def square(cls, size=0):
-        """Return a new Rectangle instance with width == height == size."""
+        """Return a new Rectangle instance
+        with width == height == size."""
         return cls(size, size)
