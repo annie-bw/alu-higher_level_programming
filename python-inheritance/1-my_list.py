@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 """
-This module defines the MyList class that inherits from list.
+This module defines the MyList
+ class that inherits from list.
 """
+
 
 class MyList(list):
     """
@@ -11,6 +13,7 @@ class MyList(list):
 
     def print_sorted(self):
         """
-        Prints the list in ascending sorted order (does not modify the original list).
+        Prints the list in ascending sorted
+        order (does not modify the original list).
         """
         print(sorted(self))
