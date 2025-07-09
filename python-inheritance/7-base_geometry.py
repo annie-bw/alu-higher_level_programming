@@ -22,7 +22,7 @@ class BaseGeometry:
         Validates that value is a positive integer.
 
         Args:
-            name (str): The name of the value (used in the exception message).
+            name (str): The name of the parameter.
             value (any): The value to validate.
 
         Raises:
