@@ -4,6 +4,7 @@ This module defines a class named BaseGeometry
 with a public method that raises an exception.
 """
 
+
 class BaseGeometry:
     """
     A base geometry class with an unimplemented area method.
