@@ -16,6 +16,7 @@ class Rectangle(BaseGeometry):
         - no getters or setters for width or height
     """
 
+
     def __init__(self, width, height):
         """
         Initialize a Rectangle instance.
