@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-This module defines a Rectangle class that inherits from BaseGeometry.
+This module defines a Rectangle
+class that inherits from BaseGeometry.
 """
 
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
@@ -12,7 +13,8 @@ class Rectangle(BaseGeometry):
 
     Instantiation with width and height:
         - width and height are private attributes
-        - validated to be positive integers using integer_validator
+        - validated to be positive integers
+        using integer_validator
         - no getters or setters for width or height
     """
 
@@ -22,8 +24,10 @@ class Rectangle(BaseGeometry):
         Initialize a Rectangle instance.
 
         Args:
-            width (int): The width of the rectangle; must be a positive integer.
-            height (int): The height of the rectangle; must be a positive integer.
+            width (int): The width of the rectangle;
+              must be a positive integer.
+            height (int): The height of the rectangle;
+              must be a positive integer.
 
         Raises:
             TypeError: If width or height is not an integer.
