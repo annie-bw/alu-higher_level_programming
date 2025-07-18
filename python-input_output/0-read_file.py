@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 '''A python script that reads the contents of a file'''
 
