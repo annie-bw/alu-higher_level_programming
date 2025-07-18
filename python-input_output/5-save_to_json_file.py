@@ -1,11 +1,10 @@
 #!/usr/bin/python3
-'''A function that reads a json file'''
-
+"""Function that writes an object to a text file using JSON representation"""
 
 import json
 
 
 def save_to_json_file(my_obj, filename):
-    '''saves a doc to a json format'''
-    with open(filename, 'w+') as f:
-        return json.dump(my_obj, f)
+    """Writes an object to a file using JSON format"""
+    with open(filename, 'w') as f:
+        json.dump(my_obj, f)
